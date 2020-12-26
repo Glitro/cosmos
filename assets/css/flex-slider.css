@@ -277,15 +277,19 @@ html[xmlns] .flexslider .slides {
   .flex-direction-nav .flex-next {
     opacity: 1;
     right: 10px;
-  }
-  div.circletag {
-    display: block;
-    width: 40px;
-    height: 40px;
-    background: #E6E7ED;
-    -moz-border-radius: 20px;
-    -webkit-border-radius: 20px;
+.image-cropper {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
 }
-div.circletag.img {
+.profile-pic {
+  display: inline;
+  margin: 0 auto;
+  margin-left: -25%; //centers the image
+  height: 100%;
+  width: auto;
+}
 
 }
